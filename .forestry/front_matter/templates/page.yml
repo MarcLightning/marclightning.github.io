@@ -23,3 +23,13 @@ fields:
   config: {}
   label: Gallery
   description: optional
+- name: right_column
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Right Column
+  description: optional
