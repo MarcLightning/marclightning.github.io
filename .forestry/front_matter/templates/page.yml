@@ -23,7 +23,3 @@ fields:
   config: {}
   label: Gallery
   description: optional
-- name: toggle
-  type: boolean
-  label: Toggle
-  default: false
