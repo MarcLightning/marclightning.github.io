@@ -1,4 +1,16 @@
 ---
 label: header
 hide_body: true
-fields: []
+fields:
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
+- name: nav
+  type: field_group_list
+  config:
+    min: 
+    max: '5'
+    labelField: 
+  label: Nav
