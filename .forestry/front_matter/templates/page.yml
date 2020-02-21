@@ -4,10 +4,11 @@ hide_body: false
 fields:
 - name: layout
   type: select
-  default: ''
+  default: default
   config:
     required: true
-    options: []
+    options:
+    - default
     source:
       type: simple
       section: 
