@@ -32,4 +32,4 @@ fields:
     schema:
       format: markdown
   label: Right Column
-  description: optional
+  description: Add optional content to a right side column
