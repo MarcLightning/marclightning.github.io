@@ -7,4 +7,4 @@ right_column: ''
 layout: default
 
 ---
-Info about me would go here ok? Cool.
+Info about me would go here ok? Cool. Yep.
