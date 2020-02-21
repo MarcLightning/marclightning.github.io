@@ -23,9 +23,6 @@ fields:
   config: {}
   label: Gallery
   description: optional
-- name: add_right_column
-  type: boolean
-  label: Add_right_column
 - name: right_side_content
   type: textarea
   default: ''
