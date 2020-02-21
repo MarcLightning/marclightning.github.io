@@ -20,5 +20,3 @@ fields:
     max: '5'
     labelField: 
   label: Nav
-pages:
-- header.md
