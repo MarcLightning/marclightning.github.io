@@ -9,6 +9,12 @@ fields:
   label: Logo
 - name: nav
   type: field_group_list
+  fields:
+  - name: nav_item
+    type: include
+    config: {}
+    template: nav-item
+    label: Nav Item
   config:
     min: 
     max: '5'
