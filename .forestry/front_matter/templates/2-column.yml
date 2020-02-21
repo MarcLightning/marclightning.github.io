@@ -1,4 +1,43 @@
 ---
 label: 2 Column
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: hero
+  type: file
+  config:
+    maxSize: 250
+  label: Hero
+  description: optional
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  description: optional
+- name: main_content
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Main Content
+- name: right_hand_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Right Hand Content
