@@ -1,9 +1,9 @@
 ---
-title: Test
+title: About Me
 description: ''
 hero: ''
 gallery: []
 right_column: ''
-published: false
 
 ---
+Info about me would go here ok? Cool.
