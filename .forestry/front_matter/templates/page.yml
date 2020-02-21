@@ -1,4 +1,29 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: hero
+  type: file
+  config:
+    maxSize: 250
+  label: Hero
+  description: optional
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  description: optional
+- name: toggle
+  type: boolean
+  label: Toggle
+  default: false
