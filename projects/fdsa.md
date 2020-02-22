@@ -6,6 +6,7 @@ description: qwer
 hero: ''
 gallery: []
 right_column: ''
-permalink: "/"
+permalink: "/projects/"
 
 ---
+PROJECTS!

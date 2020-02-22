@@ -6,4 +6,4 @@ title: "Happy Jekylling!"
 ## You're ready to go
 
 Start developing your Jekyll website.
-[ABOUT](about/test.html 'cheggit')
+[PROJECTS](projects/ 'cheggit')
