@@ -54,3 +54,4 @@ fields:
   description: Add optional content to a right side column
 pages:
 - about/test.md
+- projects/test.md
