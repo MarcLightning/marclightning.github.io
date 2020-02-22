@@ -3,6 +3,11 @@ label: Page
 hide_body: false
 display_field: slug
 fields:
+- name: permalink
+  type: text
+  config:
+    required: true
+  label: Permalink
 - name: layout
   type: select
   default: default
@@ -16,11 +21,6 @@ fields:
       file: 
       path: 
   label: Layout
-- name: permalink
-  type: text
-  config:
-    required: true
-  label: Permalink
 - name: title
   type: text
   config:
