@@ -6,5 +6,6 @@ description: qwer
 hero: ''
 gallery: []
 right_column: ''
+permalink: "/"
 
 ---
