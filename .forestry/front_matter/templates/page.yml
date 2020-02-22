@@ -15,6 +15,11 @@ fields:
       file: 
       path: 
   label: Layout
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
 - name: title
   type: text
   config:
