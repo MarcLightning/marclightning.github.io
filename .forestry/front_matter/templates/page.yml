@@ -1,7 +1,7 @@
 ---
 label: Page
 hide_body: false
-display_field: title
+display_field: slug
 fields:
 - name: layout
   type: select
