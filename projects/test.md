@@ -6,6 +6,5 @@ description: test123
 hero: ''
 gallery: []
 right_column: ''
-published: false
 
 ---
