@@ -46,9 +46,6 @@ body a:hover {
   text-decoration: none;
   color: #e5e5e5;
 }
-#full-nav-ul li a:hover {
-  transform: scale(1.1);
-}
 #full-nav-ul li a:hover::after {
   content: ' \00BB';
 }
@@ -59,7 +56,7 @@ body a:hover {
   color: #e5e5e5;
   cursor: pointer;
 }
-#full-nav-close i:hover, #full-nav-open i:hover {
+#full-nav-close i:hover, #full-nav-open i:hover, #full-nav-ul li a:hover {
   color: #dd2020;
   transform: scale(1.1);
   transition: .5s;
