@@ -2,6 +2,7 @@ $backgroundColor: #0d0c0c;
 $bodyColor: #e5e5e5;
 $hover1: #dd2020;
 $bodyFont: 'Spartan', sans-serif;
+$transition: all .5s ease;
 
 html {
   margin-left: calc(100vw - 100%);
@@ -15,11 +16,11 @@ body {
 body a {
   color: #a5a2a2;
   text-decoration: none;
+  transition: $transition;
 }
 body a:hover {
   color: $hover1;
   text-decoration: none;
-  transition: .5s;
 }
 
 /* NAV CSS */
@@ -46,15 +47,23 @@ body a:hover {
 #full-nav-ul li a {
   text-decoration: none;
   color: #e5e5e5;
-}
-#full-nav-close i:hover, #full-nav-open i:hover, #full-nav-ul li a:hover {
-  color: $hover1;
-  transform: scale(1.1);
-  transition: .5s;
   backface-visibility: hidden;
+}
+#full-nav-ul li a:hover {
+  color: $hover1;
+  padding: 10px 0 10px 0;
+  font-size: larger;
 }
 #full-nav-ul li a:hover::after {
   content: ' \00BB';
+}
+#full-nav-close i, #full-nav-open i {
+  transition: $transition;
+  backface-visibility: hidden;
+}
+#full-nav-close i:hover, #full-nav-open i:hover {
+  color: $hover1;
+  transform: scale(1.1);
 }
 #full-nav-close, #full-nav-open {
   position: absolute;
