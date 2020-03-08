@@ -6,7 +6,6 @@ project_images:
 - "/uploads/d2g-old-header.webp"
 - "/uploads/d2g-new-header.webp"
 url: https:www.displays2go.com
-published: false
 
 ---
 In an effort to modernize the Displays2Go website I lead a project to redesign the site header with the goal of reducing it's footprint, and streamlining critical calls to action (browsing categories, logging in, checking/removing items from the shopping cart).
