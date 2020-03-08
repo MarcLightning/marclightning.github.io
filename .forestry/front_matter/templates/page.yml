@@ -3,24 +3,6 @@ label: Page
 hide_body: false
 display_field: slug
 fields:
-- name: permalink
-  type: text
-  config:
-    required: true
-  label: Permalink
-- name: layout
-  type: select
-  default: default
-  config:
-    required: true
-    options:
-    - default
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Layout
 - name: title
   type: text
   config:
