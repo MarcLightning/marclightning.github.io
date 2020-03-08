@@ -30,3 +30,5 @@ fields:
   config:
     required: false
   label: URL
+pages:
+- projects/D2G-site-header-redesign.md
