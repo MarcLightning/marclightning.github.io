@@ -18,7 +18,7 @@ body a {
   text-decoration: none;
   transition: $transition;
 }
-body a:hover {
+body a:hover, #site-footer a:hover {
   color: $hover1;
   text-decoration: none;
 }
@@ -46,12 +46,11 @@ body a:hover {
 }
 #full-nav-ul li a {
   text-decoration: none;
-  color: #e5e5e5;
+  color: $bodyColor;
   backface-visibility: hidden;
 }
 #full-nav-ul li a:hover {
   color: $hover1;
-  padding: 10px 0 10px 0;
   font-size: larger;
 }
 #full-nav-ul li a:hover::after {
@@ -71,4 +70,14 @@ body a:hover {
   padding: 30px;
   color: #e5e5e5;
   cursor: pointer;
+}
+
+/* FOOTER */
+#site-footer {
+  background: #a5a2a2;
+  color: $backgroundColor;
+  padding: 14px;
+}
+#site-footer a {
+  color: $backgroundColor;
 }

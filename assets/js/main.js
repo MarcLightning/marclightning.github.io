@@ -9,7 +9,9 @@ function closeNav() {
   $('#full-nav-close').hide();
   $('#full-nav-open').show();
 }
+
 $( document ).ready (function() {
+  // nav close and open
   $( '#full-nav-close' ).on('click', closeNav );
   $( '#full-nav-open' ).on('click', openNav );
 });
