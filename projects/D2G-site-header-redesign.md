@@ -1,4 +1,9 @@
 ---
+
+layout: project
+permalink: /projects/D2G-site-header
+title: Displays2Go Site Header Redesign
+
 project_name: Displays2Go Site Header Redesign
 date: 2019-03-01 05:00:00 +0000
 description: Designed and implemented a new, more modern Displays2go site header.
