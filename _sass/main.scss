@@ -4,16 +4,21 @@ $hover1: #dd2020;
 $bodyFont: 'Spartan', sans-serif;
 $transition: all .5s ease;
 
+* {
+  margin: 0;
+}
 html {
-  margin-left: calc(100vw - 100%);
   overflow-x: hidden;
 }
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
-body a {
+body a, #site-footer a {
   color: #a5a2a2;
   text-decoration: none;
   transition: $transition;
@@ -22,13 +27,17 @@ body a:hover, #site-footer a:hover {
   color: $hover1;
   text-decoration: none;
 }
+main.page-content {
+  flex: 1 0 auto;
+}
 
-/* NAV CSS */
+/* NAV */
 #full-nav {
-  position: absolute;
+  position: fixed;
   display: block;
   height: 100vh;
   width: 100vw;
+  z-index: 9999;
   background-color: rgba(0, 0, 0, .9);
   right: -100vw;
 }
@@ -73,11 +82,12 @@ body a:hover, #site-footer a:hover {
 }
 
 /* FOOTER */
-#site-footer {
-  background: #a5a2a2;
-  color: $backgroundColor;
-  padding: 14px;
+footer.site-footer {
+  background: #252424;
+  padding: 7px;
+  flex-shrink: 0;
 }
-#site-footer a {
-  color: $backgroundColor;
+footer.site-footer ul li {
+  background: #252424;
+  border-style: none;
 }
