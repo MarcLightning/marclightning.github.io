@@ -10,6 +10,9 @@ $transition: all .5s ease;
 html {
   overflow-x: hidden;
 }
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
 body {
   background: $backgroundColor;
   color: $bodyColor;
@@ -32,6 +35,7 @@ body a:hover, #site-footer a:hover {
   left: 0;
   color: #e5e5e5;
   cursor: pointer;
+  font-weight: 700;
 }
 .home-link a {
   display: block;
@@ -47,7 +51,7 @@ body a:hover, #site-footer a:hover {
 
 main.page-content {
   flex: 1 0 auto;
-  padding: 14px;
+  padding: 28px;
 }
 
 .project-desc {
@@ -59,6 +63,7 @@ main.page-content {
 #full-nav {
   position: fixed;
   display: block;
+  font-weight: 700;
   height: 100vh;
   width: 100vw;
   z-index: 9999;
@@ -110,6 +115,7 @@ footer.site-footer {
   background: #252424;
   padding: 7px;
   flex-shrink: 0;
+  font-weight: 700;
 }
 footer.site-footer ul li {
   background: #252424;
