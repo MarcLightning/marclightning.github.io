@@ -27,9 +27,32 @@ body a:hover, #site-footer a:hover {
   color: $hover1;
   text-decoration: none;
 }
+.home-link {
+  position: absolute;
+  left: 0;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+.home-link a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+.home-link a:hover {
+  background-color: $hover1;
+  text-decoration: none;
+  color: $backgroundColor;
+}
+
 main.page-content {
   flex: 1 0 auto;
   padding: 14px;
+}
+
+.project-desc {
+  color: #cecece;
+  font-weight: 100;
 }
 
 /* NAV */

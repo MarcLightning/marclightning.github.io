@@ -17,6 +17,11 @@
     <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
   </head>
   <header class="site-header">
+    <div class="home-link">
+      {% if page.path != "index.md" %}
+        <a href="/">&laquo; Marc Mestre</a>
+      {% endif %}
+    </div>
     <div id="full-nav-open">
       <i class="fa fa-chevron-left fa-4x" aria-hidden="true"></i>
     </div>
