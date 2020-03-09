@@ -1,5 +1,5 @@
 ---
-project_name: Displays2Go Site Header Redesign
+project_name: Displays2go Site Header Redesign
 date: 2019-03-01T05:00:00.000+00:00
 description: Designed and implemented a new, more modern Displays2go site header.
 project_images:
@@ -8,7 +8,7 @@ project_images:
 url: https:www.displays2go.com
 layout: project
 permalink: "/projects/D2G-site-header"
-title: Displays2Go Site Header Redesign
+title: Displays2go Site Header Redesign
 
 ---
 In an effort to modernize the Displays2Go website I lead a project to redesign the site header with the goal of reducing it's footprint, and streamlining critical calls to action (browsing categories, logging in, checking/removing items from the shopping cart).
