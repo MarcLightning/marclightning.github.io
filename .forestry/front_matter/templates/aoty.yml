@@ -2,8 +2,11 @@
 label: AOTY
 hide_body: true
 fields:
-- name: aoty
-  type: include
-  config: {}
-  template: album
-  label: aoty
+- name: aoty-rank
+  type: blocks
+  label: AOTY-rank
+  template_types:
+  - album
+  config:
+    min: 
+    max: 
