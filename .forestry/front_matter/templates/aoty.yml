@@ -1,4 +1,9 @@
 ---
 label: AOTY
 hide_body: true
-fields: []
+fields:
+- name: aoty
+  type: include
+  config: {}
+  template: album
+  label: aoty
