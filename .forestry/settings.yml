@@ -8,7 +8,7 @@ sections:
   path: AOTY
   label: AOTY
   create: all
-  match: "**/*"
+  match: "*"
 - type: directory
   path: projects
   label: Projects
