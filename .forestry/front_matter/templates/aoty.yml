@@ -28,5 +28,10 @@ fields:
     schema:
       format: markdown
   label: Honorable Mentions
+- name: honorable_mentions_background
+  type: file
+  config:
+    maxSize: 64
+  label: Honorable Mentions Background
 pages:
 - AOTY/aoty-2020.md
