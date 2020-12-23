@@ -117,12 +117,37 @@ main.page-content {
 
 /* AOTY/Album */
 .album {
-  padding: 1rem 0 2rem 0;
-  border-bottom: 1px solid gray;
+  position: relative;
+  margin: 1rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 4px;
 }
+.album:last-child {border: none;}
 .album iframe {
   width: 100%;
   height: 480px;
+}
+.cover {
+  background: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.cover img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: .1;
+}
+.album-info {
+  padding: 2rem;
+}
+.album-description {
+  padding: 0 3rem 0 3rem;
 }
 
 /* FOOTER */
