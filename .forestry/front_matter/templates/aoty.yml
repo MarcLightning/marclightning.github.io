@@ -19,5 +19,14 @@ fields:
   config:
     min: 
     max: 
+- name: honorable_mentions
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Honorable Mentions
 pages:
 - AOTY/aoty-2020.md
