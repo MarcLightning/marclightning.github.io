@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - name: year
   type: datetime
-  label: year
+  label: Year
   description: ''
   config:
     required: true
@@ -13,7 +13,7 @@ fields:
     display_utc: false
 - name: aoty-rank
   type: blocks
-  label: AOTY-rank
+  label: AOTY Rank
   template_types:
   - album
   config:
