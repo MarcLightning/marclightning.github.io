@@ -2,6 +2,15 @@
 label: AOTY
 hide_body: true
 fields:
+- name: year
+  type: datetime
+  label: year
+  description: ''
+  config:
+    required: true
+    date_format: YYYY
+    time_format: 
+    display_utc: false
 - name: aoty-rank
   type: blocks
   label: AOTY-rank
