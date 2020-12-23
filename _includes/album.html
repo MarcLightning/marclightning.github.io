@@ -1,9 +1,6 @@
-<pre>
-  {{ block }}
-</pre>
 <div class="album">
+  <h1>{{ forloop.index }}</h1>
   <h2>{{ block.album-artist }}</h2>
   <h4>{{ block.album-title  }}</h4>
-  {{ block.album-description }}
-  </p>
+  {{ block.album-description | markdownify }}
 </div>

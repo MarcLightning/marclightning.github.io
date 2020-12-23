@@ -115,6 +115,16 @@ main.page-content {
   padding-bottom: 28px;
 }
 
+/* AOTY/Album */
+.album {
+  padding: 1rem 0 2rem 0;
+  border-bottom: 1px solid gray;
+}
+.album iframe {
+  width: 100%;
+  height: 480px;
+}
+
 /* FOOTER */
 footer.site-footer {
   background: #252424;
