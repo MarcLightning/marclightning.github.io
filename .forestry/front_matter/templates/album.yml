@@ -10,13 +10,13 @@ fields:
 - name: album-title
   type: text
   config:
-    required: false
+    required: true
   label: album-title
 - name: album-description
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: true
     schema:
       format: markdown
