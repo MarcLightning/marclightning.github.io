@@ -1,8 +1,13 @@
-
 {% include header.html %}
 <main class="page-content">
   <div class="container">
-    {{ content }}
+    {% for block in page.aoty-rank %}
+      {% assign template = block.template %}
+      {% case template %}
+      {% when 'album' %}
+        {% include album.html %}
+      {% endcase %}
+    {% endfor %}
   </div>
 </main>
 {% include footer.html %}
