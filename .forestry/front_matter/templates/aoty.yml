@@ -34,4 +34,5 @@ fields:
     maxSize: 64
   label: Honorable Mentions Background
 pages:
+- AOTY/aoty-2019.md
 - AOTY/aoty-2020.md
