@@ -1,6 +1,6 @@
 ---
 label: Album
-hide_body: true
+hide_body: false
 fields:
 - name: album-artist
   type: text
