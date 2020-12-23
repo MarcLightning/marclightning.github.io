@@ -1,7 +1,8 @@
 {% include header.html %}
 <main class="page-content">
   <div class="container">
-    {% for block in page.aoty-rank %}
+    {% assign reverse_blocks = page.aoty-rank | reverse %}
+    {% for block in reverse_blocks %}
       {% assign template = block.template %}
       {% case template %}
       {% when 'album' %}
