@@ -1,13 +1,11 @@
----
-
-layout: default
-
----
-
-<div class="container">
-  <h2>{{ album.album-artist }}</h2>
-  <h3>{{ album.album-title }}</h3>
-  <p>
-    {{ album.album-description}}
-  </p>
-</div>
+{% include header.html %}
+<main class="page-content">
+  <div class="container">
+    <h2>{{ album.album-artist }}</h2>
+    <h3>{{ album.album-title }}</h3>
+    <p>
+      {{ album.album-description}}
+    </p>
+  </div>
+</main>
+{% include footer.html %}
