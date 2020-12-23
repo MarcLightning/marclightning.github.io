@@ -16,7 +16,7 @@ fields:
 - name: hero
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Hero
   description: optional
 - name: gallery
