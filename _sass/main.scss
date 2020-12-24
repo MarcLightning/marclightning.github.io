@@ -30,8 +30,11 @@ body a:hover, #site-footer a:hover {
   color: $hover1;
   text-decoration: none;
 }
-.home-link {
+.home-links-container {
   position: absolute;
+}
+.home-link {
+  position: relative;
   left: 0;
   color: #e5e5e5;
   cursor: pointer;
@@ -41,7 +44,7 @@ body a:hover, #site-footer a:hover {
   display: block;
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 15px 30px 15px 30px;
 }
 .home-link a:hover {
   background-color: $hover1;

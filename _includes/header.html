@@ -17,9 +17,16 @@
     <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
   </head>
   <header class="site-header">
-    <div class="home-link">
+    <div class="home-links-container">
       {% if page.path != "index.md" %}
-        <a href="/">&laquo; Home</a>
+        <div class="home-link">
+            <a href="/">&laquo; Home</a>
+        </div>
+      {% endif %}
+      {% if page.layout == "aoty" %}
+        <div class="home-link">
+            <a href="/AOTY">&laquo; AOTYs</a>
+        </div>
       {% endif %}
     </div>
     <div id="full-nav-open">
