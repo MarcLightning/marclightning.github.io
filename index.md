@@ -7,7 +7,7 @@ title: Marc Mestre
 
 This is my website. It is part portfolio, part web development test area. I will sometimes post about projects that I'm working and music that I like.
 
-###Learn more
+### Learn more
 
 * [Carbonmade Portfolio](https://marcmestre.carbonmade.com/){:target="_blank"}
 * [LinkedIn](https://www.linkedin.com/in/marc-mestre-99147721/){:target="_blank"}
