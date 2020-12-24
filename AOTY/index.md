@@ -1,13 +1,7 @@
 ---
-year: ''
-aoty-rank: []
-honorable_mentions: ''
-honorable_mentions_background: ''
+layout: default
 title: Album of The Year Lists
 description: An index of the all the AOTY lists
-hero: ''
-gallery: []
-right_column: ''
 
 ---
 # Albums of the Years
