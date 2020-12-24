@@ -13,15 +13,17 @@
         {% include album.html %}
       {% endcase %}
     {% endfor %}
-    <div class="aoty-honorable-mentions">
-      <div class="cover">
-        <img src="{{ page.honorable_mentions_background }}" alt="honorable mentions background" />
+    {% if page.honorable_mentions != empty %}
+      <div class="aoty-honorable-mentions">
+        <div class="cover">
+          <img src="{{ page.honorable_mentions_background }}" alt="honorable mentions background" />
+        </div>
+        <div class="aoty-honorable-mentions-list">
+          <h2>Honorable Mentions</h2>
+          {{ page.honorable_mentions | markdownify }}
+        </div>
       </div>
-      <div class="aoty-honorable-mentions-list">
-        <h2>Honorable Mentions</h2>
-        {{ page.honorable_mentions | markdownify }}
-      </div>
-    </div>
+    {% endif %}
   </div>
 </main>
 {% include footer.html %}
