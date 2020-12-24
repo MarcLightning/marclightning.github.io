@@ -35,4 +35,4 @@ fields:
   label: Right Column
   description: Add optional content to a right side column
 pages:
-- about/test.md
+- AOTY/index.md
