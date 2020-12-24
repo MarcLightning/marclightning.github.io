@@ -1,0 +1,34 @@
+---
+label: Project
+hide_body: false
+fields:
+- name: project_name
+  type: text
+  config:
+    required: false
+  label: Project Name
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: project_images
+  type: image_gallery
+  config: {}
+  label: Project Images
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+pages:
+- projects/D2G-site-header-redesign.md

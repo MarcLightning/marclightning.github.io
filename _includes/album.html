@@ -1,0 +1,13 @@
+<div class="album">
+  <div class="cover">
+    <img src="{{ block.cover-art }}" alt="{{ block.album-title }} cover art" />
+  </div>
+  <div class="album-info">
+    <h2>{{ forloop.length | plus: 1 | minus: forloop.index }}</h1>
+    <h3>{{ block.album-artist }}</h2>
+    <h5>{{ block.album-title  }}</h4>
+  </div>
+  <div class="album-description">
+    {{ block.album-description | markdownify }}
+  </div>
+</div>

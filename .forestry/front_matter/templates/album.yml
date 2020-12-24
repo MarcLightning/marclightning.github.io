@@ -1,0 +1,28 @@
+---
+label: Album
+hide_body: false
+fields:
+- name: album-artist
+  type: text
+  config:
+    required: true
+  label: album-artist
+- name: album-title
+  type: text
+  config:
+    required: true
+  label: album-title
+- name: album-description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: album-description
+- name: cover-art
+  type: file
+  config:
+    maxSize: 64
+  label: cover-art

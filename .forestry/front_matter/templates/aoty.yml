@@ -1,0 +1,39 @@
+---
+label: AOTY
+hide_body: true
+fields:
+- name: year
+  type: datetime
+  label: Year
+  description: ''
+  config:
+    required: true
+    date_format: YYYY
+    time_format: 
+    display_utc: false
+- name: aoty-rank
+  type: blocks
+  label: AOTY Rank
+  template_types:
+  - album
+  config:
+    min: 
+    max: 
+- name: honorable_mentions
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Honorable Mentions
+- name: honorable_mentions_background
+  type: file
+  config:
+    maxSize: 64
+  label: Honorable Mentions Background
+pages:
+- AOTY/aoty-2019.md
+- AOTY/aoty-2019.md
+- AOTY/aoty-2020.md

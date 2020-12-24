@@ -1,8 +1,14 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: Marc Mestre
+
 ---
+## Hello,
 
-## You're ready to go!
+This is my website. It is part portfolio, part web development test area. I will sometimes post about projects that I'm working on and music that I like.
 
-Start developing your Jekyll website.
+#### Learn more
+
+* [Carbonmade Portfolio](https://marcmestre.carbonmade.com/){:target="_blank"}
+* [LinkedIn](https://www.linkedin.com/in/marc-mestre-99147721/){:target="_blank"}
+* [Github](https://github.com/MarcLightning){:target="_blank"}

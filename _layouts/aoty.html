@@ -1,0 +1,29 @@
+{% include header.html %}
+<main class="page-content">
+  <div class="container">
+    <h1>Albums of the Year {{ page.year | date: "%Y" }} [Metal]</h1>
+    <p>
+      I'm a metal-head. Here are the top 10 metal albums that I enjoyed this year.
+    </p>
+    {% assign reverse_blocks = page.aoty-rank | reverse %}
+    {% for block in reverse_blocks %}
+      {% assign template = block.template %}
+      {% case template %}
+      {% when 'album' %}
+        {% include album.html %}
+      {% endcase %}
+    {% endfor %}
+    {% if page.honorable_mentions != empty %}
+      <div class="aoty-honorable-mentions">
+        <div class="cover">
+          <img src="{{ page.honorable_mentions_background }}" alt="honorable mentions background" />
+        </div>
+        <div class="aoty-honorable-mentions-list">
+          <h2>Honorable Mentions</h2>
+          {{ page.honorable_mentions | markdownify }}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</main>
+{% include footer.html %}
