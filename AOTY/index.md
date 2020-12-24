@@ -1,7 +1,11 @@
 ---
-layout: default
 title: Album of The Year Lists
 description: An index of the all the AOTY lists
+hero: ''
+gallery: []
+right_column: ''
+layout: ''
+
 ---
 # Albums of the Years
 
