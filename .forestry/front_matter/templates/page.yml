@@ -34,11 +34,5 @@ fields:
       format: markdown
   label: Right Column
   description: Add optional content to a right side column
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Layout
-  hidden: true
 pages:
 - AOTY/index.md
