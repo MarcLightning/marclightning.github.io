@@ -4,7 +4,7 @@ description: An index of the all the AOTY lists
 hero: ''
 gallery: []
 right_column: ''
-layout: ''
+layout: default
 
 ---
 # Albums of the Years
