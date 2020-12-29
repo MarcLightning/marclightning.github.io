@@ -11,6 +11,11 @@ fields:
     date_format: YYYY
     time_format: 
     display_utc: false
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 - name: aoty-rank
   type: blocks
   label: AOTY Rank
