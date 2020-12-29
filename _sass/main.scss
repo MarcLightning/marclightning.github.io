@@ -31,7 +31,7 @@ body a:hover, #site-footer a:hover {
   text-decoration: none;
 }
 .home-links-container {
-  position: absolute;
+  position: fixed;
 }
 .home-link {
   position: relative;
@@ -106,7 +106,7 @@ main.page-content {
   transform: scale(1.1);
 }
 #full-nav-close, #full-nav-open {
-  position: absolute;
+  position: fixed;
   right: 0;
   padding: 30px;
   color: #e5e5e5;
