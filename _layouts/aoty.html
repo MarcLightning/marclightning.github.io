@@ -3,7 +3,7 @@
   <div class="container">
     <h1>Albums of the Year {{ page.year | date: "%Y" }} [Metal]</h1>
     <p>
-      I'm a metal-head. Here are the top 10 metal albums that I enjoyed this year.
+      Here are the top 10 metal albums that I enjoyed this year.
     </p>
     {% assign reverse_blocks = page.aoty-rank | reverse %}
     {% for block in reverse_blocks %}
