@@ -105,8 +105,15 @@ main.page-content {
   color: $hover1;
   transform: scale(1.1);
 }
-#full-nav-close, #full-nav-open {
+#full-nav-open {
   position: fixed;
+  right: 0;
+  padding: 30px;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+#full-nav-close {
+  position: absolute;
   right: 0;
   padding: 30px;
   color: #e5e5e5;
