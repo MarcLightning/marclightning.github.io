@@ -1,6 +1,6 @@
 ---
 year: 2021-01-01 05:00:00 +0000
-title: Here are the top 10 metal albums that I enjoyed this year.
+title: AOTY 2021
 aoty-rank:
 - template: album
   album-artist: DVNE
