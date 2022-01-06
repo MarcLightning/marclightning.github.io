@@ -12,6 +12,5 @@ aoty-rank:
   cover-art: "/uploads/dvne-etemen-aenka.jpg"
 honorable_mentions: ''
 honorable_mentions_background: ''
-published: false
 
 ---
