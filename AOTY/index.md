@@ -13,5 +13,6 @@ layout: default
 
 I like it so much I sometimes come up with a list of my favorite releases for the year.
 
+* [Albums of the Year 2021](/AOTY/aoty-2021.html)
 * [Albums of the Year 2020](/AOTY/aoty-2020.html)
 * [Albums of the Year 2019](/AOTY/aoty-2019.html)
